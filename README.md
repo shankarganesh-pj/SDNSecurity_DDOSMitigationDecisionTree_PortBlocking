@@ -6,7 +6,7 @@
 3. The machine learning model is being used to train the controller to determine whether a network packet is considered a DDoS attack or not.
 4. The controller then will be able to detect the packet using the detection mechanism and mitigate the attack by doing a port blocking the attacker port.
 5. The controller has been tested on multiple data center topologies (Three Tier, Leaf-Spine, etc) with the multiple number of nodes selection with most of the switches being used being OpenFlow Switch 1.3.
-6. There is an application layer that was made to keep the monitoring of the eaeachf the node inside https://github.com/bryanoliverh/SDNSecurity_RyuControllerApplicationLayer.
+6. There is an application layer that was made to keep monitoring the reach of the node inside https://github.com/bryanoliverh/SDNSecurity_RyuControllerApplicationLayer.
 7. The application layer functions to manually enable/disable ports, create whitelist/blacklist firewall rules, check the packet forwarding, block specific ports from the network devices, check the condition via the monitoring graphs, and so on.
 
 **Simulation**
